@@ -1,0 +1,5 @@
+# NakanoMiku
+
+### Major
+Computer Science  
+
