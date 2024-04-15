@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import Brief from './Brief.vue'
+import Contents from './Contents.vue'
 import './index.css'
 
-createApp(App).mount('#app')
+createApp(Brief).mount('#brief')
+createApp(Contents).mount('#contents')

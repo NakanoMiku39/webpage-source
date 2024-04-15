@@ -1,8 +1,31 @@
-#app {
+body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
+  background-image: url('src/assets/kanade.png');
+  background-repeat: no-repeat; /* 图像不重复 */
+  background-size: cover; /* 使背景图像覆盖整个元素 */
+}
+
+.column {
+  background-color: #ffffff;
+  opacity: 0.7;
+  column-fill:auto;
+  column-rule-style: solid;
+  column-rule-width: 10px;
+  border-radius: 25px;
+  padding: 20px;
+  height: 1100px;
+}
+
+.column.left {
+  float: left;
+  width: 25%;
+}
+
+.column.right {
+  float: right;
+  width: 70%;
 }
