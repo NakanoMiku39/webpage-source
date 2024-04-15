@@ -7,11 +7,11 @@
   <title>Vite App</title>
 </head>
 <body>
-  <div class="row">
-    <div class="column left" id="brief"></div>
-    <div class="column right" id="contents"></div>  
-  </div>
-  <script type="module" src="/src/main.js"></script>
+  <div id="head" class="row"></div>
+  <div class="container"> <!-- 新的容器只用于并列显示的两个列 -->
+    <div class="main column left" id="brief">左侧内容区</div>
+    <div class="main column right" id="contents">右侧内容区</div>
+  </div>   <script type="module" src="/src/main.js"></script>
   <script type="module" src="/src/utils.js"></script>
 </body>
 </html>

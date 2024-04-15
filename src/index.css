@@ -3,29 +3,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  /* margin-top: 60px; */
   background-image: url('assets/kanade.png');
-  background-repeat: no-repeat; /* 图像不重复 */
-  background-size: cover; /* 使背景图像覆盖整个元素 */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.column {
+#head {
+  background-image: url('assets/ichika.png');
+  background-position: 0px -400px;
+  height: 10vh;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.container {
+  display: flex; /* 设置这个容器为 Flex 容器 */
+  flex-direction: row; /* 子元素水平排列 */
+  justify-content: space-between; /* 两个子元素之间保留空间 */
+}
+
+.main.column {
   background-color: #ffffff;
   opacity: 0.7;
-  column-fill:auto;
-  column-rule-style: solid;
-  column-rule-width: 10px;
   border-radius: 25px;
   padding: 20px;
-  height: 95vh;
+  height: 80vh; /* 根据需要调整 */
+  flex-grow: 1; /* 允许灵活的宽度调整 */
+  margin: 10px; /* 替代原来的 margin-right, 应用到两边 */
 }
 
-.column.left {
-  float: left;
-  width: 20%;
+.main.column.left {
+  flex-basis: 15%; /* 设置左列的基础宽度 */
 }
 
-.column.right {
-  float: right;
-  width: 75%;
+.main.column.right {
+  flex-basis: 75%; /* 设置右列的基础宽度 */
 }

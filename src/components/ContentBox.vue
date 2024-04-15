@@ -4,7 +4,7 @@
   
 <style>
 #contentbox {
-  margin-left:10%;
+  margin-left:10vw;
   padding:1px 16px;
   height:100%;
   overflow: auto;
