@@ -4,9 +4,9 @@
   
 <style>
 #contentbox {
-  margin-left:10vw;
+  margin-left:5vw;
   padding:1px 16px;
-  height:100%;
+  height:80vh;
   overflow: auto;
   font-size: 20px;
 }
