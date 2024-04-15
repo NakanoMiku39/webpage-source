@@ -4,7 +4,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   /* margin-top: 60px; */
-  background-image: url('src/assets/kanade.png');
+  background-image: url('assets/kanade.png');
   background-repeat: no-repeat; /* 图像不重复 */
   background-size: cover; /* 使背景图像覆盖整个元素 */
 }
@@ -17,7 +17,7 @@ body {
   column-rule-width: 10px;
   border-radius: 25px;
   padding: 20px;
-  height: 1100px;
+  height: 95vh;
 }
 
 .column.left {

@@ -1,21 +1,23 @@
 <template>
-<ul>
-        <li><a href="#" @click="loadContent('Home.md')">Home</a></li>
-        <li><a href="#" @click="loadContent('About.md')">About</a></li>
-        <li><a href="#" @click="loadContent('2024-04-15.md')">2024-04-15</a></li>
-      </ul>
+    <ul>
+      <li><a href="#" @click="loadContent('Home.md')">Home</a></li>
+      <li><a href="#" @click="loadContent('About.md')">About</a></li>
+      <li><a href="#" @click="loadContent('2024-04-15.md')">2024-04-15</a></li>
+    </ul>
 <ContentBox :content="content"></ContentBox>
 </template>
 
 <style>
 ul{
   list-style-type: none;
-  margin: 0;
+  margin: 10;
   padding: 0;
   width: 7%;
-  height: 100%; /* 全屏高度 */
-  position: fixed; 
+  height: 90%; /* 全屏高度 */
+  position: absolute;
   overflow: auto; /* 如果导航栏选项多，允许滚动 */
+  border-right-style: solid;
+  border-width: 1px;
 }
 
 li a {
@@ -59,7 +61,6 @@ export default {
           console.error('Error loading the markdown file:', error);
           this.content = 'Failed to load content.';
         });
-        console.log(this.content)
     }
 }
   
