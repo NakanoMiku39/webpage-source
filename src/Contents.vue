@@ -2,7 +2,7 @@
 <ul>
         <li><a href="#" @click="loadContent('Home.md')">Home</a></li>
         <li><a href="#" @click="loadContent('About.md')">About</a></li>
-        <li><a href="#" @click="loadContent('Contact.md')">Contact</a></li>
+        <li><a href="#" @click="loadContent('2024-04-15.md')">2024-04-15</a></li>
       </ul>
 <ContentBox :content="content"></ContentBox>
 </template>
@@ -19,6 +19,8 @@ ul{
 }
 
 li a {
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: block;
   color: #000;
   padding: 8px 16px;
@@ -43,7 +45,7 @@ export default {
     },
     data() {
     return {
-      content: 'Welcome! Click a link.'
+      content: 'What are you looking for 👀.'
     };
     },
     methods: {
