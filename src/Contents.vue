@@ -3,6 +3,11 @@
     <ul class="box column left">
       <li><a href="#" @click="loadContent('Home.md')">Home</a></li>
       <li><a href="#" @click="loadContent('About.md')">About</a></li>
+      <li><a href="#" @click="loadContent('2024-04-27.md')">2024-04-27</a></li>
+      <li><a href="#" @click="loadContent('2024-04-22.md')">2024-04-22</a></li>
+      <li><a href="#" @click="loadContent('2024-04-20.md')">2024-04-20</a></li>
+      <li><a href="#" @click="loadContent('2024-04-17.md')">2024-04-17</a></li>
+      <li><a href="#" @click="loadContent('2024-04-16.md')">2024-04-16</a></li>
       <li><a href="#" @click="loadContent('2024-04-15.md')">2024-04-15</a></li>
     </ul>
     <div class="box column right">
